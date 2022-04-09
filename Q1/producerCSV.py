@@ -24,8 +24,8 @@ data=json.load(open('cred.json'))   #TODO: fill the missing values within cred.j
 bootstrap_servers=data['bootstrap_servers'];
 sasl_plain_username=data['Api key'];
 sasl_plain_password=data['Api secret'];
-topicName=''                        #TODO: fill by topic name
-schemaID=0;                         #TODO: set the schema ID.
+topicName='Covid19'                        #TODO: fill by topic name
+schemaID=100006;                         #TODO: set the schema ID.
 
 
 #initalize the Serializer
